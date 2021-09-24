@@ -1,0 +1,26 @@
+body{
+    background-color: #f1f1f1;
+    color: deepskyblue;
+}
+.profile{
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.container .profile{
+    flex: 25%;
+}
+.container .info {
+    flex: 75%;
+}
+.container .history{
+    flex-direction: column;
+}
+
+@media all and (max-width: 750px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
