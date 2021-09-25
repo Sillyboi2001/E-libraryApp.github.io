@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../styling/login.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <ul>
+    <li><a href="./"><h2 id="h2">E-LIBRARY</h2></a></li>
+    <li class="dropdown" style="float: right">
+      <a href="javascript:void(0)" class="dropbtn"><i class="fas fa-bars"></i></a>
+      <div class="dropdown-content" style="right: 0;">
+        <a href="./">Login</a>
+        <a href="./registration.html">Signup</a>
+        <a href="#">Terms and Conditions</a>
+      </div>
+    </li>
+  </ul>
+  
+    <h1>SIGN INTO YOUR ACCOUNT</h1>
+    <div class="style">  
+      <h2>Sign In</h2>
+      <form action="/homepage" method="POST">
+        <p><input type="text" placeholder="Your Email"></input></p>
+        <p><input type="password" placeholder="Password"></input></p>
+        <input type="checkbox">Show password</input>
+        <p><input type="submit" value="Sign in"></p>
+        <footer>
+        <p>Forgot password? <a href="./forget/password">Reset Password</a></p>
+        New to E-Library? <a href="./registration.html">CREATE ACCOUNT</a></footer>
+      </form>
+    </div>
+</body>
+</html>
